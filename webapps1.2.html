@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #ff0000;
+            color: rgb(255, 213, 0);
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 80vh;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #d400ff;
+            color: rgb(0, 255, 47);
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                font-size: 14px;
+            }
+
+            main {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Example for Responsive Web Design</h1>
+    </header>
+    <main>
+        <p>This is a demonstration of responsive web design. The layout adjusts based on screen width.</p>
+        <img src="sample-image.jpg" alt="Sample Image">
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Company</p>
+    </footer>
+</body>
+</html>
+
